@@ -19,7 +19,7 @@ growth <- function(N=10,time=500,k=-9999,tau=0,r=.2) {
     
     ## Do this if tau is zero (no lag)
     if (tau == 0){
-      for (i in 2:time){vect[i] <- vect[i-1]+ (vect[i-1]*r*(1-(vect[i-1]/k)))}
+      for (i in 2:time){vect[i] <- vect[i-1] + (vect[i-1]*r*(1-(vect[i-1]/k)))}
     }
     
     ## Do this if tau is not zero (there is some lag)
@@ -95,8 +95,8 @@ shinyServer(
     ### Plot ----
     output$plot1<- renderPlot({
       table <- outdf()
-      plot (table$N~table$time,type="l", lwd=2, xlab="Time", ylab="N (Population size)",
-            main="population growth", cex.lab=1.25, cex.main=1.75, cex.axis=1.25)
+      plot (table$N~table$time,type="l", lwd=2, xlab="Temps", ylab="Taille de la population (N)",
+           cex.lab=1.25, cex.main=1.75, cex.axis=1.25)
     })
 
   }
