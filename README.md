@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-\# But
+# But
 
 Ce dépot a pour but de servir de support à l’enseignement à la
 modélisation au CESCO. Il a été notamment utilisé pour initier des
@@ -8,7 +8,7 @@ stagiaires de 3ème à la modélisation de la dynamique des populations. Il
 contient des applications shiny permettant de simuler des modèles tout
 en modifiant les valeurs de paramètres à la souris.
 
-\# Installation
+# Installation
 
 Ce dépot peut être installé de différentes façon
 
@@ -22,7 +22,7 @@ git clone cesco-lab/model_apps .
 
 2.  Le télécharger
 
-\# Utilisation
+# Utilisation
 
 Ces applications nécessitent d’avoir installé le package `shiny` dans R.
 Vous pouvez lancer une application en lancant la commande pointant vers
